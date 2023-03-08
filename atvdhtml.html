@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+    }    
+    header{
+        width: 100vw;
+        height: 100vh;
+        background-image: url("./imagens/tatooine-twin-suns.jpg");
+        background-position: bottom;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .componentes-header{
+        margin-bottom: 150px;
+        color: aliceblue;
+        text-align: center;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .nomeFilme{
+       position: absolute;
+       top: 0;
+       left: 0;
+       color: aliceblue;
+    }
+    /* Início CSS main section */
+    .bloco{
+        width: 250px;
+        height: 415px;
+        display:inline-block;
+        border-radius: 10px;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-color: rgb(132, 129, 173);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        transition: transform 0.5s;
+        align-items: center;
+    }
+    .col{
+    flex-basis: 50%;
+    }
+    .componentes-section{
+        margin-top: 60px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .comp{
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .filme1{
+        width: 200px;
+        height: 180px;
+        border-top: 50px;
+        padding: 25px 25px;
+        border-radius: 5px;
+        background-position: center;
+        background-size: cover;
+        background-image: url("./imagens/autocompaddecida.png");
+    }
+    .serie1{
+        width: 200px;
+        height: 180px;
+        border-top: 50px;
+        padding: 25px 25px;
+        border-radius: 5px;
+        background-position: center;
+        background-size: cover;
+        background-image: url("./imagens/sherlock.jpg");  
+    }
+    .documentario1{
+        width: 200px;
+        height: 180px;
+        border-top: 50px;
+        padding: 25px 25px;
+        border-radius: 5px;
+        background-position: center;
+        background-size: cover;
+        background-image: url("./imagens/Arremesso-FInal-The-Last-Dance.png.crdownload");  
+    }
+    .anime1{
+        width: 200px;
+        height: 180px;
+        border-top: 50px;
+        padding: 25px 25px;
+        border-radius: 5px;
+        background-position: center;
+        background-size: cover;
+        background-image: url("./imagens/codegeass.jpg");  
+    }
+    /*Seção CSS Quero assistir*/
+    .fundo1{
+        background-color: rgb(37, 37, 47);
+    }
+    .componentes-section2{
+        margin-top: 60px;
+        text-align: center;
+        font-size: 30px;
+        color: aliceblue;
+    }
+    .bloco2{
+        width: 270px;
+        height: 210px;
+        display:inline-block;
+        border-radius: 10px;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-color: rgb(210, 207, 203);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        transition: transform 0.5s;
+        align-items: center;
+    }
+    h3{
+        justify-content: center;
+    }
+    .corfonte{
+        color: black;
+    }
+    .filme2{
+        width: 200px;
+        height: 180px;
+        border-top: 50px;
+        padding: 25px 25px;
+        border-radius: 5px;
+        background-position: center;
+        background-size: cover;
+    }
+
+/*Section CSS forms*/
+    .fundo2{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.7)),url("./imagens/millennium.png");
+        background-position: center;
+        background-size: cover;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+    }
+    .bloco3{
+        width: 650px;
+        height: 415px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 30px 45px;
+        justify-content: center;
+        background-color: rgb(0, 0, 0);
+        opacity: 0.7;
+        background-position: center;
+        background-size: cover;
+        transition: transform 0.5s;
+    }
+
+
+
+/*Inicio HTML*/
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nomeFilme"><h3>Filme: Star Wars Episode IV A new Hope <br> - Twin Suns from Tatooine</h3></div>
+        <div class="componentes-header">
+            <h1>Lista de Alessandra</h1>
+            <h2>Atividade HTML</h2>
+        </div>
+    </header>
+
+<!-- Section Gostos-->
+    <section>
+        <div class="col">
+            <div class="componentes-section">
+                <h2>O que gosto de assistir?</h2>
+            </div>
+            <div class="col">
+                <div class="comp">
+                    <div class="bloco">
+                        <h3>FILMES</h3>
+                        <p> <br> Gosto de filmes de terror,mistério, ficção ciêntífica,
+                            aventura e dos clássicos tanto brasileiros quanto de fora.
+                            <br><br><strong> Recomendação:<a href="https://www.youtube.com/watch?v=MmdaVlVIJeU" target="_blank">O Auto da Compadecida</strong></a>
+                            <div class="filme1"></div>
+                        </p>
+                    </div>
+                    <div class="bloco">
+                        <h3>SÉRIES</h3>
+                        <p><br>Estou aberta a tudo, mas de preferência Séries
+                            bem escritas e com uma história interessante e que deixe <br>
+                            aberta a teorias. <br> <br> <strong> Recomendação: <a href="https://www.adorocinema.com/series/serie-4528/" target="_blank"> Sherlock (BBC)</strong></a>
+                        </p>
+                        <div class="serie1"></div>
+                    </div>
+                    <div class="bloco">
+                        <h3>DOCUMENTÁRIOS</h3>
+                            <p><br> Documentários criminais, históricos no geral, de basquete ou formula 1,
+                                sobre tecnologia, de viagens e culinária <br> <br> <strong> Recomendação: <a href="https://www.netflix.com/title/80203144" target="_blank"> Arremesso final</strong></a>
+                            </p>
+                        <div class="documentario1"></div>
+                    </div>
+                    <div class="bloco">
+                        <h3>ANIMES</h3>
+                            <p><br> Ação, mistério, gore, terror, um pouquinho de romance. Slice of life, animes de luta e antigos
+                                 são bem vindos também. <br>
+                                <br><strong>Recomendação: <a href="https://www.crunchyroll.com/pt-br/series/GY2P9ED0Y/code-geass" target="_blank"> Code geass</strong></a>
+                            </p>
+                <div class="anime1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section quero ver-->
+    <section class="fundo1">
+        <div class="col">
+            <div class="componentes-section2">
+                <h2>Quero assistir!</h2>
+            </div>
+            <div class="col">
+                <div class="comp">
+                    <div class="bloco2">
+                        <div class="corfonte">
+                            <h2>FILMES</h2>
+                            <br>
+                            <ol>
+                                <a href="https://www.adorocinema.com/filmes/filme-224882/" target="_blank"><li>The Lobster (2015)</li></a>
+                                <a href="https://www.imdb.com/title/tt0074851/" target="_blank"><li>The Man Who Fell to Earth (1976)</li></a>
+                                <a href="https://www.thesupermariobros.movie/" target="_blank"><li>Super Mario Bross (2023)</li></a>
+                                <a href="https://www.youtube.com/watch?v=WzV-a6pK1zA" target="_blank"><li>Indiana Jones 5 (2023)</li></a>
+                                <a href="https://www.imdb.com/title/tt15239678/" target="_blank"><li>Dune-Parte 2 (2023)</li></a>
+                                <a href="https://www.imdb.com/title/tt10168670/" target="_blank"><li>Bones and All (2022)</li></a>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="bloco2">
+                        <div class="corfonte">
+                            <h2>SÉRIES</h2>
+                            <br>
+                            <ol>
+                                <a href="https://www.disney.com.br/disneyplus/the-mandalorian" target="_blank"><li>The Mandalorian (3 Temporada)</li></a>
+                                <a href="https://www.netflix.com/title/80994082" target="_blank"><li>Lupin (3 Temporada)</li></a>
+                                <a href="https://www.netflix.com/title/81149450" target="_blank"><li>Vikings Valhalla</li></a>
+                                <a href="https://www.netflix.com/title/81435684" target="_blank"><li>Arcane (2 Temporada)</li></a>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="bloco2">
+                        <div class="corfonte">
+                            <h2>DOCUMENTÁRIOS</h2>
+                            <br>
+                            <ol>
+                                <a href="https://www.netflix.com/title/81466159" target="_blank"><li>Bernie Madoff: O golpista de Wall Street</li></a>
+                                <a href="https://www.netflix.com/br/title/81318943" target="_blank"><li>A incrivel vida dos nossos bichinhos</li></a>
+                                <a href="https://www.netflix.com/br/title/81074012" target="_blank"><li>Batalha bilionária: O caso do google earth</li></a>
+                                <a href="https://www.netflix.com/br/title/80208213" target="_blank"><li>Tanques de Guerra: Mobilidade Mortal</li></a>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="bloco2">
+                        <div class="corfonte">
+                            <h2>ANIMES</h2>
+                            <br>
+                            <ol>
+                                <a href="https://www.crunchyroll.com/pt-br/series/GMEHME53W/black-rock-shooter" target="_blank"><li>Black Rock Shooter</li></a>
+                                <a href="https://www.crunchyroll.com/pt-br/series/GRE50KV36/black-clover" target="_blank"><li>Black Clover</li></a>
+                                <a href="https://www.crunchyroll.com/series/GRMG8ZQZR/one-piece" target="_blank"><li>One piece</li></a>
+                                <a href="https://www.crunchyroll.com/pt-br/series/G5PHNM434/sk8-the-infinity" target="_blank"><li>Sk Infinity</li></a>
+                                <a href="https://www.crunchyroll.com/series/G9VHN9P49/azur-lane" target="_blank"><li>Azur lane</li></a>
+                                <a href="https://www.netflix.com/br/title/70308852" target="_blank"><li>Black Lagoon</li></a>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Section forms-->
+<section>
+    <footer>
+        <div class="fundo2">
+            <div class="bloco3">
+                    <h1 style="color: white;">Recomendações!</h1>
+                    <p>Insira aqui algumas recomendações de animes/séries/filmes para que eu assista.</p> <br>
+                    <form action="#" method="get" style="color: white;">
+                        <input type="radio">Filme <br>
+                        <input type="radio">Série <br>
+                        <input type="radio">Anime <br>
+                        <input type="radio">Documentário <br> <br>
+                        <input type="text" name="User" placeholder="Seu nome" style="width: 300px; height: 25px; border-radius: 5px;"> <br> <br>
+                        <input type="text" name="Sugestões" placeholder="Coloque aqui!" style="width: 450px; height: 120px; border-radius: 10px;"> <br> <br>
+                        <input type="submit" value="Enviar">
+                    </form>
+            </div>
+        </div>
+    </footer>
+</section>   
+</body>
+</html>
